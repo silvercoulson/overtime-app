@@ -1,5 +1,3 @@
-# app/dashboards/admin_user_dashboard.rb
-
 require "administrate/base_dashboard"
 
 class AdminUserDashboard < Administrate::BaseDashboard
@@ -19,7 +17,6 @@ class AdminUserDashboard < Administrate::BaseDashboard
     updated_at: Field::DateTime.with_options(searchable: false),
     type: Field::String.with_options(searchable: false),
   }.freeze
-
 
   COLLECTION_ATTRIBUTES = [
     :posts,

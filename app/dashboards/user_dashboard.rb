@@ -24,7 +24,7 @@ class UserDashboard < Administrate::BaseDashboard
     :type
   ].freeze
 
-SHOW_PAGE_ATTRIBUTES = [
+  SHOW_PAGE_ATTRIBUTES = [
     :posts,
     :email,
     :sign_in_count,
